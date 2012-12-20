@@ -1,11 +1,3 @@
-//
-//  ViewController.m
-//  TestApp
-//
-//  Created by Frédéric Moreau on 20/12/12.
-//
-//
-
 #import "ViewController.h"
 
 @interface ViewController ()

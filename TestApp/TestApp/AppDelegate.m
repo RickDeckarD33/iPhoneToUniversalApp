@@ -1,11 +1,3 @@
-//
-//  AppDelegate.m
-//  TestApp
-//
-//  Created by Frédéric Moreau on 20/12/12.
-//
-//
-
 #import "AppDelegate.h"
 
 @implementation AppDelegate
