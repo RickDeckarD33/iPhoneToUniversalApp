@@ -22,11 +22,23 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wQJ-O0-uHI">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="FLw-Vg-0Ki" firstAttribute="top" secondItem="3" secondAttribute="top" constant="208" id="NUk-px-Sqx"/>
-                            <constraint firstItem="FLw-Vg-0Ki" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="pgy-xz-Gex"/>
+                            <constraint firstItem="wQJ-O0-uHI" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="FOu-ia-vN7"/>
+                            <constraint firstItem="wQJ-O0-uHI" firstAttribute="leading" secondItem="FLw-Vg-0Ki" secondAttribute="leading" type="default" id="ZiN-nR-icW"/>
+                            <constraint firstItem="FLw-Vg-0Ki" firstAttribute="top" secondItem="3" secondAttribute="top" constant="183" id="geO-ek-gs8"/>
+                            <constraint firstItem="wQJ-O0-uHI" firstAttribute="top" secondItem="FLw-Vg-0Ki" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="mPU-Av-BNo"/>
                         </constraints>
                     </view>
                 </viewController>
